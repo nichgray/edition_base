@@ -58,7 +58,7 @@ defaults:
     values:
       layout: default
       category: poem
-# Paratext (Introduction, Essays)
+# Paratext (Introduction, Essays, Documentation)
   - scope:
       path: "essay"
       type: pages
@@ -82,13 +82,13 @@ defaults:
     values:
       navigation: "true"
   - scope:
+      path: "docs/README.md"
+    values:
+      navigation: "true"
+  - scope:
       path: "docs/listing.html"
     values:
       navigation: "true"
-
-
-
-
 
 # Build settings
 theme: minima
@@ -96,9 +96,6 @@ theme: minima
 plugins:
   - jekyll-feed
   - kramdown
-
-
-
 
 # Exclude from processing.
 # The following items will not be processed, by default.

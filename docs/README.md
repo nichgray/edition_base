@@ -1,3 +1,35 @@
+# Documentation
+{:.no_toc}
+
+Welcome to the Recovery Hub Edition template. To get started with your own edition click the "Use this template" button above to make a copy on your own GitHub account, and start making changes. One you are ready to publish, you can enable GitHub Pages by going to your new repository's settings and in the "Pages" tab, choose your branch as the source and save. Github will then display the URL of your new site. 
+
+In order for links to work, you will then need to change your _config.yml file with the values of this new URL. 
+
+If your URL is, for instance, `https://recoveryhub.github.io/edition_base/`
+
+then these will be your values: 
+
+```
+baseurl: "/edition_base"
+url: "https://recoveryhub.github.io/"
+```
+
+Once GitHub regenerates your pages (it can take up to a coulple of minutes but is usually pretty quick) you can see your site.
+
+## Table of Contents
+{:.no_toc}
+
+* Table of Contents
+{:toc}
+
+## To Add
+
+- Brief explanation of jekyll, minima, github pages
+  - File structure
+- some boilerplate text on recovery work
+- should some docs be stored seperately rather than with the repository?
+- info on "upgrading"
+
 ## Jekyll Version
 
 Built with Jekyll 3.9.0
@@ -14,9 +46,6 @@ The config file is meant for settings that affect your whole blog, values
 which you are expected to set up once and rarely edit after that. If you find
 yourself editing this file very often, consider using Jekyll's data files
 feature for the data you need to update frequently.
-
-For technical reasons, this file is *NOT* reloaded automatically when you use
-'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 If you need help with YAML syntax, here are some quick references for you: 
 https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
@@ -36,7 +65,13 @@ The Recovery Hub base theme is based off "Minima", a Jekyll theme for writers. T
 
 All markdown files must have either a # header at the top of the document (because GitHub Pages using jekyll-optional-front-matter as a dependency 5 https://github.com/benbalter/jekyll-optional-front-matter), or must declare a title: in the frontmatter. 
 
-Files that don't do one of these things will be not be processed - that is, they won't be transformed into HTML or included in any of the listings, but they will be passed through as is
+Files that don't do one of these things will be not be processed - that is, they won't be transformed into HTML or included in any of the listings, but they will be passed through as is. For more information see metadata, below. 
+
+### Markdown
+
+The only text format currently supported is markdown. The site supports kramdown for special formatting, as well. 
+
+Todo: either find sites to link to or explain more here
 
 ### Metadata
 

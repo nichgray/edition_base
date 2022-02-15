@@ -1,18 +1,27 @@
 ---
 layout: page
 title: About
-permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+<!-- Note no title because it is provided in the frontmatter, above -->
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+This is the base about page. Below are some sections commonly found in edition about pages. 
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+* Table of Contents
+{:toc}
 
+## Editorial Policy
 
-[jekyll-organization]: https://github.com/jekyll
+How were materials chosen? What decisions were made (e.g. correcting misspellings, leaving misslellings in place, adding contextual notes)? 
+
+## Project History
+
+What led to this project? What influences have there been?
+
+## People
+
+List all the people that helped with the project and their roles
+
+## Use Statement
+
+Are materials public domain? Do you have permission to distribute if not? Would you liek to apply a creative commons or other license to included essays and other paratext? 
