@@ -27,9 +27,10 @@ Once GitHub regenerates your pages (it can take up to a couple of minutes but is
 - Brief explanation of jekyll, minima, github pages
   - File structure
 - some boilerplate text on recovery work
-- should some docs be stored seperately rather than with the repository?
 - info on "upgrading"
 - Editing files via github
+- Working on files on your computer
+- text files and uses, file naming conventions (from here: https://github.com/recoveryhub/recoveryhub.github.io/blob/gh-pages/_docs/docs.markdown, we will need to decide what goes where)
 
 ## Jekyll Version
 
