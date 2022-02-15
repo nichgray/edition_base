@@ -14,7 +14,7 @@ baseurl: "/edition_base"
 url: "https://recoveryhub.github.io/"
 ```
 
-Once GitHub regenerates your pages (it can take up to a coulple of minutes but is usually pretty quick) you can see your site.
+Once GitHub regenerates your pages (it can take up to a couple of minutes but is usually pretty quick) you can see your site.
 
 ## Table of Contents
 {:.no_toc}
