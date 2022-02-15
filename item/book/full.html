@@ -1,0 +1,66 @@
+---
+title: The Wanderers edition
+---
+
+{% capture my_variable %}
+
+  <div> <h2>Hello</h2> </div>
+
+  <p>Testing</p>
+
+  {% endcapture %}
+
+{{ my_variable }}
+
+{% assign local_page = page.name %}
+
+
+
+<div style="color: red">{{ local_page }}</div>
+
+<div style="color: green">Green</div>
+
+<div class="category_listing">
+  <h2>Thing</h2>
+    <ul>
+      {%- assign default_paths = site.pages | map: "path" -%}
+      {%- assign page_paths = site.header_pages | default: default_paths -%}
+      {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
+      
+      {%- for path in page_paths -%}
+    {%- assign my_page = site.pages | where: "path", path | first -%}
+        {%- if my_page.category == "book" -%}
+          {%- if my_page.title -%}
+          {%- unless my_page.name == local_page -%}
+            <li>
+              <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+            </li>
+            {%- endunless -%}
+          {%- endif -%}
+        {%- endif -%}
+      {%- endfor -%}
+    </ul>
+  </div>
+
+  <div class="whole_book">
+    <h2>Thing</h2>
+     
+        {%- assign default_paths = site.pages | map: "path" -%}
+        {%- assign page_paths = site.header_pages | default: default_paths -%}
+        {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
+        
+        {%- for path in page_paths -%}
+      {%- assign my_page = site.pages | where: "path", path | first -%}
+          {%- if my_page.category == "book" -%}
+            {%- if my_page.title -%}
+            {%- unless my_page.name == local_page -%}
+            {{ my_page.content | markdownify }}
+              {%- endunless -%}
+            {%- endif -%}
+          {%- endif -%}
+        {%- endfor -%}
+      <br/>
+    </div>
+
+
+   

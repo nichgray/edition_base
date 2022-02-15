@@ -1,0 +1,119 @@
+# See docs folder for details on implementation
+
+## Site Settings
+
+### Site Information
+
+title: Edition Title
+tagline: An edition of various texts
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut eleifend justo. Quisque gravida est a quam ultrices posuere. Suspendisse potenti. Morbi in metus malesuada, facilisis neque at, ornare lorem. Vestibulum augue eros, consectetur nec rhoncus eu, rhoncus at urna. # Shows up in the footer by default
+
+### Site Structure
+
+baseurl: "/edition_base" # the subpath of your site
+url: "https://recoveryhub.github.io/" # should not change for Recovery Hub projects
+
+### Contact
+
+project_pi: Jane Doe and Felicity Smith # This can be one or multiple names and will be listed in the footer by default
+twitter_username: TheCCWH
+github_username:  recoveryhub
+
+### Site Setup / Defaults
+
+# Categories listed here must match the 
+# categories in defaults, below. 
+# The categories are not showing up in the 
+# site.categories object  ¯\_(ツ)_/¯
+
+# I am using categories instead of collections because I can then have files with no headmatter, which may make it easier to incorporate files from other projects
+
+category_list: ["no_category", "book", "periodical", "essay", "poem", "documentation"]
+
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+      type: pages
+    values:
+      layout: default
+      category: no_category
+# Item Types
+  - scope:
+      path: "item/book"
+      type: pages
+    values:
+      layout: paginate
+      category: book
+  - scope:
+      path: "item/periodical"
+      type: pages
+    values:
+      layout: paginate
+      category: periodical
+  - scope:
+      path: "item/poem"
+      type: pages
+    values:
+      layout: default
+      category: poem
+# Paratext (Introduction, Essays)
+  - scope:
+      path: "essay"
+      type: pages
+    values:
+      layout: default
+      category: essay
+  - scope:
+      path: "docs"
+      type: pages
+    values:
+      layout: default
+      category: documentation
+# Pages to add to navigation
+# you can alternately add pages to navigation via frontmatter
+  - scope:
+      path: "about.md"
+    values:
+      navigation: "true"
+  - scope:
+      path: "index.md"
+    values:
+      navigation: "true"
+  - scope:
+      path: "docs/listing.html"
+    values:
+      navigation: "true"
+
+
+
+
+
+# Build settings
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - kramdown
+
+
+
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
