@@ -38,3 +38,16 @@ All markdown files must have either a # header at the top of the document (becau
 
 Files that don't do one of these things will be not be processed - that is, they won't be transformed into HTML or included in any of the listings, but they will be passed through as is
 
+### Metadata
+
+Unless you directly specify metadata other than title (Author, date, etc) it will not appear for items in the metadata for the page and so will not be available for harvesters or citation programs (i.e. zotero)
+
+In order to add this, you will either need to define it in the frontmatter of each page or add the values in the _config.yml file. Frontmatter is a better approach if every item might be different, while the config is useful if an entire folder share the same values. 
+
+- `title:` If you have a markdown header at the top of your file, that will be taken as the "title" for the page. if you would like to set a different title, you can do so using the `title:` value
+- `creator:` (look up how this would work for multiple values)
+- `contributor:` contributors to the digital file, transcribers, encoders, etc.
+- `published_date:` (look to see how this would work)
+
+TODO: figure out other metadata that would need to be added to make different doc types save correctly in zotero, etc.
+

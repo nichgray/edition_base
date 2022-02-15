@@ -15,9 +15,9 @@ url: "https://recoveryhub.github.io/" # should not change for Recovery Hub proje
 
 ### Contact
 
-project_pi: Jane Doe and Felicity Smith # This can be one or multiple names and will be listed in the footer by default
-twitter_username: TheCCWH
-github_username:  recoveryhub
+project_pi: Grace Doe and Felicity Smith # This can be one or multiple names and will be listed in the footer by default
+twitter_username: AWWRecoveryHub # twitter name of the Recovery Hub
+github_username:  recoveryhub # github name of the Recovery Hub
 
 ### Site Setup / Defaults
 
@@ -29,6 +29,8 @@ github_username:  recoveryhub
 # I am using categories instead of collections because I can then have files with no headmatter, which may make it easier to incorporate files from other projects
 
 category_list: ["no_category", "book", "periodical", "essay", "poem", "documentation"]
+
+# exclude: ["docs"] # once edition is complete, if you want to exclude the documentation from showing you can exclude the docs folder. You can also add any other directories you would like to exclude (i.e. notes, source files, etc.)
 
 defaults:
   - scope:
