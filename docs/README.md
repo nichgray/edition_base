@@ -1,9 +1,9 @@
 # Documentation
 {:.no_toc}
 
-Welcome to the Recovery Hub Edition template. To get started with your own edition click the "Use this template" button above to make a copy on your own GitHub account, and start making changes. One you are ready to publish, you can enable GitHub Pages by going to your new repository's settings and in the "Pages" tab, choose your branch as the source and save. Github will then display the URL of your new site. 
+Welcome to the Recovery Hub Edition template. To get started with your own edition click the "Use this template" button above to make a copy on your own GitHub account, and start making changes. One you are ready to publish, you can enable GitHub Pages by going to your new repository's settings and in the "Pages" tab, choose your branch as the source and save. (Note, your repository must be public!) Github will then display the URL of your new site. 
 
-In order for links to work, you will then need to change your _config.yml file with the values of this new URL. 
+In order for links to work, you will then need to change your _config.yml file (See "editing directly on github" below) ((TODO: add)) with the values of this new URL. 
 
 If your URL is, for instance, `https://recoveryhub.github.io/edition_base/`
 
@@ -29,6 +29,7 @@ Once GitHub regenerates your pages (it can take up to a coulple of minutes but i
 - some boilerplate text on recovery work
 - should some docs be stored seperately rather than with the repository?
 - info on "upgrading"
+- Editing files via github
 
 ## Jekyll Version
 
