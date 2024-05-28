@@ -3,7 +3,7 @@
 
   {%- include head.html -%}
 
-  <body>
+  <body id="{{ page.name | remove: '.html' | remove: '.markdown' }}">
 
     {%- include header.html -%}
 
