@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Text-Based Projects
-permalink: /docs
+permalink: /documentation
 ---
 
 * TOC
@@ -166,7 +166,7 @@ Note the use of the shortname &quot;edition-one&quot; in the folder naming and t
       - 00002.md
     - text
       - 00003.txt
-  - utput
+  - output
     - production
       - html
         - 00001.html
