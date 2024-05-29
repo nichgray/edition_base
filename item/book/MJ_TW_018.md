@@ -1,6 +1,17 @@
-CHAPTER XVIII
+---
+layout: paginate
+title: Chapter XVIII
 
-THE RIGHT OF KINGS
+# Metadata
+type: chapter
+author: Mary Johnston
+book_title: The Wanderers
+chapter_number: XVIII
+chapter_title: The Right of Kings
+---
+# CHAPTER XVIII
+
+## THE RIGHT OF KINGS
 Richard Osmund and his white horse approached Great Meadow. The year was at autumn, the year 1654. A considerable village, Great Meadow spread over the ancient meadow and a short way up the hill. Meadow and hill had for a border a still, complacent river. The hill was crested by an old wood, and along the roadside stood huge, bronzing trees. A mile from town a stream turned a mill wheel. From the tall stone mill might be seen clustering houses with small bright dooryards, and the village green and an ancient church and churchyard.
 
 Richard Osmund rode slowly, a steadfast man in a plain dress of brown. Dress and his short-cut hair, and his uncocked hat, general demeanour as well, marked him for some shade of inhabitant of the Puritan and Parliamentary hemisphere. But within this general part of the globe it was hard to class him. He did not look mere Church Reform, nor yet Presbyterian, nor precisely Independent, not yet Anabaptist nor Leveller. Certainly he must be a dissident of some sort, but of what sort?

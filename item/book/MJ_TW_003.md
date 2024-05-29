@@ -1,3 +1,15 @@
+---
+layout: paginate
+title: Chapter III
+
+# Metadata
+type: chapter
+author: Mary Johnston
+book_title: The Wanderers
+chapter_number: III
+chapter_title: Big Trouble
+---
+
 # CHAPTER III
 
 ## BIG TROUBLE

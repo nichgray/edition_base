@@ -1,6 +1,18 @@
-CHAPTER XI
+---
+layout: paginate
+title: Chapter XI
 
-THE BANKS OF JUMUNA
+# Metadata
+type: chapter
+author: Mary Johnston
+book_title: The Wanderers
+chapter_number: XI
+chapter_title: The Banks of Jumuna
+---
+
+# CHAPTER XI
+
+## THE BANKS OF JUMUNA
 Zira, clad in a ragged, brown dress, sat beneath a clump of bamboo growing by the stream that ran past Gângya’s house, and cleaned the copper cooking-pots. For three years Zira had been called widow. When you are young and fortunate, beloved and happy, three years is not a great space of time. When you are young but unfortunate, abused and wretched, it may be long indeed. Zira was young in years, but quite old in misery.
 
 Her head showed shaven, the ragged shawl that covered it being pushed back since none was by saving the monkeys in the banyan tree and the lizards on the rock wall. She was thin, for she was never given enough to eat and steadily overworked. Upon her arms were black bruises, for her mother-in-law was subject to hot rages and yesterday had shaken Zira until her teeth chattered in her head, and the blood stood still under the griping fingers. Across her shoulders ran a weal from the stick with which she had been struck because she had broken an earthern lamp. Zira looked, and was, forlorn, ill-treated, poorly lodged and fed, abused, struck with tongue and hand, a menial and pariah, a widow in the house of her husband’s parents.

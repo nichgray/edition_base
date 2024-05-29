@@ -1,6 +1,18 @@
-CHAPTER XIII
+---
+layout: paginate
+title: Chapter XIII
 
-ALLEDA AND ALARAN
+# Metadata
+type: chapter
+author: Mary Johnston
+book_title: The Wanderers
+chapter_number: XIII
+chapter_title: Alleda and Alaran
+---
+
+# CHAPTER XIII
+
+## ALLEDA AND ALARAN
 The mighty oak forest, the mighty forest of beech and fir and chestnut, birch and ash, stretched north and south and east and west. Clearings there were, but the clearings soon dipped into forest. The clearings were rifts in a clouded heaven, sunny patches on a shadowed ocean. Fine threads of light, rude roads, tracks, paths, tied clearing to clearing. Timber houses rose from the open spaces. Sometimes there rose only one house, sometimes two or three together, more seldom quite a number grouped in one great clearing. The houses were of great untrimmed logs, the roofs of thatch. They were as rude as the time in the northern forest; a few houses, many huts. Fields there were, irregularly sown, and great meadow stretches by the streams for the numerous cattle. From the air an eagle might see that all these clearings, great and small, made a constellation, and that there were other constellations linked to the first by some type of road driven across leagues of forest. Taken all together, they indicated a tribe or nation of northern folk. Off in the rounding mist where the forest tracks broke, beyond leagues of smooth, succeeding forest, abode other and similar nations. And all the tribes and nations, though they were so similar, spent much of their time in warring against one another. To the southward, beyond the eagle’s horizon, far and far and far beyond, were the provinces of Rome, and the power of Rome, and farther, farther, farther south, Rome{267} itself. And all the constellations, and all the barbarian tribes and nations hungered after the fatness thereof.
 
 The eagle, over-flying an oaken and a beechen world, might look down upon a clearing beside a broad and limpid stream, and upon the house of Terig, chief of a Gothic tribe. The house was large and low, built of fir-wood, heavy-walled, well-roofed, a great place according to the barbarian mind. It had dependent huts in number, it looked forth upon the river where were fish, and upon fields of wheat and rye, and upon pasturage over-roamed by a vast herd of cattle, and upon the forest filled with hunters’ fare. And into its great hall came, every day, to feast with Terig, a hundred Gothic men and women. And when Terig sent forth and called a folk-meet came, from clearings far and near, hundreds to the green field before the house where grew an oak so old no bard could guess when it was born. And when Terig said war came to Terig Oak all of the nation that might walk or be brought in the great ox-wagons.

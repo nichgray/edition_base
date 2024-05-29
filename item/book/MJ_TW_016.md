@@ -1,6 +1,17 @@
-CHAPTER XVI
+---
+layout: paginate
+title: Chapter XVI
 
-MOONLIGHT
+# Metadata
+type: chapter
+author: Mary Johnston
+book_title: The Wanderers
+chapter_number: XVI
+chapter_title: Moonlight
+---
+# CHAPTER XVI
+
+## MOONLIGHT
 The moon shone full and splendid, silvering the garden. The garden was formal, paved paths outlining and enclosing flower beds geometrically shaped—squares, circles, and triangles. But the riot of flowers overslipped the edges. Flowers bloomed in multitude and made an ocean of perfume. Perpetually there was sound of water, sliding and falling water. It ran in narrow channels, and slept in a pool lined with marble, and fell from stair to stair in a cascade formed by art. Black cypress trees stood up like spires, on such a night silver spires, fairy spires. The garden belonged to a castle palace that with huge stone arms clipped it on three sides. The fourth saw cliffs and the sea, the sea like one smooth shield of silver. The moon shone so bright that it put out all but the larger stars. In the garden, in the trees, sang the nightingales.
 
 Through a low, arched doorway came into the garden a man and a woman. “O the moon, the moonlight! O the nightingales!” They took the path that outlined a square of flowers. Followed them through the doorway a second couple—man and woman. “O the moon! Smell the orange trees!” They went the path by the orange trees. A third pair came forth—man and woman. “The moon on the sea! Hear the nightingales!” They paced around the circle of roses. A fourth pair followed—a fifth—a sixth—a seventh—an eighth. It seemed an Embark{346}ment for Cythera. Here were ladies and their knights—here were knights and ladies. Amaury and Adelaide—Balthasar and Bérengère—Barral and Constance—Guibour and Mélisande—Roland and Blanche—Thierry and Laure—Aldhelm and Eleanor—Raimbauld and Tiphaine.

@@ -1,3 +1,14 @@
+---
+layout: paginate
+title: Chapter VI
+
+# Metadata
+type: chapter
+author: Mary Johnston
+book_title: The Wanderers
+chapter_number: VI
+chapter_title: The Prophet
+---
 # CHAPTER VI
 
 ## THE PROPHET

@@ -1,3 +1,15 @@
+---
+layout: paginate
+title: Chapter IV
+
+# Metadata
+type: chapter
+author: Mary Johnston
+book_title: The Wanderers
+chapter_number: IV
+chapter_title: Property
+---
+
 # CHAPTER IV
 
 ## PROPERTY

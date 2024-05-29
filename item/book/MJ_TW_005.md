@@ -1,3 +1,14 @@
+---
+layout: paginate
+title: Chapter V
+
+# Metadata
+type: chapter
+author: Mary Johnston
+book_title: The Wanderers
+chapter_number: V
+chapter_title: What's in a Name?
+---
 # CHAPTER V
 
 ## WHAT’S IN A NAME?

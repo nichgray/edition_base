@@ -1,3 +1,15 @@
+---
+layout: paginate
+title: Chapter VIII
+
+# Metadata
+type: chapter
+author: Mary Johnston
+book_title: The Wanderers
+chapter_number: VIII
+chapter_title: The Priestess of Marduk
+---
+
 # CHAPTER VIII
 
 ## THE PRIESTESS OF MARDUK

@@ -1,6 +1,18 @@
-CHAPTER XII
+---
+layout: paginate
+title: Chapter XII
 
-VALERIAN AND VALERIA
+# Metadata
+type: chapter
+author: Mary Johnston
+book_title: The Wanderers
+chapter_number: XII
+chapter_title: Valerian and Valeria
+---
+
+# CHAPTER XII
+
+## VALERIAN AND VALERIA
 The emperor, acting in his capacity as Pontifex Maximus, had confirmed as virgin priestess of Vesta, Flavia, a child of ten, daughter of Valerian and Valeria. To celebrate the event Valerian gave the people games. Held in the new Amphitheatre, the spectacle drew all Rome. The emperor honoured the donor by his presence. Gladiators contended, after strange fashions, with beasts of the wood and the plain and with one another. Valerian, a successful general, lately returned from the west, had brought prisoners, great flaxen-headed men, who now fought, divided into two bands, kin against kin, with freedom the prize for the surviving.
 
 The Amphitheatre was huge, one oval, hollow wave of men and women. The people came early, struggling for good seats, desirous of being on hand for every important entrance,—the emperor, the senators, the prefect of the city, the vestals, the donors of the games, the famed, the rich, the knowing. Down streamed the sun, hot and bare upon the arena, broken elsewhere by awnings of rose and blue. Flowers withered in garlands, perfumes were burning in silver braziers. A sea of sound steadfastly beat against the ear, a vast blend of voices, male and female, of every quality. Vigiles kept order. In the arena, in the sloping passways between the divisions of the benches, jugglers and buffoons and pantomimists kept the many amused until there should arrive the glittering few. Fruit and a kind of{239} comfit were carried about and distributed. The people acclaimed Valerian the Generous.

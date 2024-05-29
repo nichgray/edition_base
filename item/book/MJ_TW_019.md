@@ -1,6 +1,18 @@
-CHAPTER XIX
+---
+layout: paginate
+title: Chapter XIX
 
-JEAN AND ESPÉRANCE
+# Metadata
+type: chapter
+author: Mary Johnston
+book_title: The Wanderers
+chapter_number: XIX
+chapter_title: Jean and Espérance
+---
+
+# CHAPTER XIX
+
+## JEAN AND ESPÉRANCE
 Much of the city must have slept at night. But so much of it waked, so much of it roamed the streets, pressed with business, or watching and hearkening to others pressed with business, so much of it, all night through, burned candles in rooms great and small, so much of it talked, harangued and chanted that a visitor, suddenly in presence from afar, might have asked, “Have you conquered sleep?” Presumably children and the very old slept. Most others seemed in the streets or in the lighted rooms, or upon the floors or in the galleries of the red-capped, and tri-coloured, the haranguing, the fierce and red-hot, the immensely Patriot, the double-distilled revolutionary clubs. The city was fevered, fevered! Voices never stopped, footfalls never stopped, small surging, rushing sound of many patriot feet together never stopped. Lights never went out. At the deadest hour, when the night side of earth has almost forgotten the sun, yet rose in the streets voices of proclamation, yet some speaker found a group to address, yet somewhere beat a drum, yet somewhere, gusts of wind in leaves, Paris whirled in Ronde patriotique, later to be called Carmagnole.
 
 Jacobins’ Club. They sat, they stood, they harangued, they applauded, they dissented, they stayed late in the Club of the Jacobins. At times they stayed all night, gods denouncing the old Titans. The gods, an unnamed Titan in their own element, had all the nave of the Jacobins{410}’ church. Up from pavement to hollow roof, tier on tier, climbed the benches, narrow stairs and galleries giving access. Thus was made circle above circle for patriot Paris, for patriot provinces come up to Paris, for forward-looking, revolutionary-minded units drawn to Paris from the elsewhere world, come to observe France and Paris and the cradle turnings of a mighty Change. Circle above circle sat full, even crowded. The topmost circle, putting up its hand, might touch the groined roof. The lowermost circle, shuffling feet on pavement, must look up a little to the platform and the seated officers of the Society.

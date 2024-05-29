@@ -1,6 +1,17 @@
-CHAPTER XVII
+---
+layout: paginate
+title: Chapter XVII
 
-THEKLA AND EBERHARD
+# Metadata
+type: chapter
+author: Mary Johnston
+book_title: The Wanderers
+chapter_number: XVII
+chapter_title: Thekla and Eberhard
+---
+# CHAPTER XVII
+
+## THEKLA AND EBERHARD
 Eberhard, Albrecht, and Ulrich, wandering students, came into Hauptberg on a winter noon, and knowing the town, made straight for the Golden Eagle, an inn loved by all vagabond students, young and not so young, “new men,” “poets” as against schoolmen, lovers of the pagan knowledge, droppers of corrosives upon the existing order, prophets of a world behind this-world, the humanist left. The Golden Eagle stood in an angle of the town wall, high red-roofed, shining-windowed, kept by Hans Knapp and Bertha his wife. The December sun made vivid all the red roofs of Hauptberg, it turned the huge cathedral into something lighter than stone, it tossed nodding sheaves of light among the prosperous burghers’ houses, it overwrote the walls of a monastery of Augustinian Hermits, it added scroll and circle of its own to the ornamented storied front of the mighty guild hall; and garmented the winter trees in the university close. The bright and nipping air put ripe apple colour into the faces of the various street-farers. These moved quickly, with bodies slightly slanted, arms folded; if they were well-to-do, in woolen and furred mantles. The poor also moved quickly, with unmantled shoulders shrugged together. The town musicians were somewhere at practice. One heard a great drum and horns.
 
 In a number of the street-farers showed a degree of{362} excitement, an eagerness to exchange speech and views with acquaintances, or even with non-acquaintances. This itch was evident in many who encountered the incoming, wandering students. “From Wittenberg way? And what is the news?”

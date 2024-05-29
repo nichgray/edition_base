@@ -1,6 +1,17 @@
-CHAPTER XV
+---
+layout: paginate
+title: Chapter XV
 
-THE END OF THE WORLD
+# Metadata
+type: chapter
+author: Mary Johnston
+book_title: The Wanderers
+chapter_number: XV
+chapter_title: The End of the World
+---
+# CHAPTER XV
+
+## THE END OF THE WORLD
 Robert le Débonair was King of France, Robert le Diable Duke of Normandy, John XIX Pope in Rome, Héribert bishop of a diocese taking name from a certain town between Orléans and Paris, Rothalind abbess of a great house of Benedictine nuns, Rainulf the Red, baron holding a wide fief and dwelling, when he was not hunting or ravening in war or gone upon some visit with an errand of his own, in the castle above the river. Rainulf was a tiger, a stream in flood, a devastating flame. Mellissent was his wife. Isabel his sister, was gone to be a nun, and was the happier. Gerbert was a music-maker who ate in Rainulf’s hall.
 
 Black Martin was not king nor baron nor bishop, but he ruled his own that was a troop of Entertainers of the time. The time knew much wretchedness and clamoured for crude forgetfulness. Black Martin sold that by the hour, whether in market-place or castle hall or at crossroads when travellers enough gathered themselves together. He was seventy years old and yet strong as an ox. He was dour as an old wolf in winter, and in fight as bad to meet, and he had the cunning of Sire Reynard. He ruled the score of human beings composing his band with more absoluteness than King Robert ruled France. Four of the number were his sons, and four the women with his sons. Two of these were lawful wives, two were not. There were five children{314} in the band. The remainder, all but one, were kindred only because of Adam and Eve, and because their common occupation was to lighten the heart or impart motion to the mind. The remaining one was Gersonde, Black Martin’s granddaughter, child of a dead eldest daughter and some man somewhere. Black Martin’s band included buffoons, tumblers and wrestlers, a dwarf, a dancer, two singers of ballads and players of harps, a man with an ape and a fortune-teller or soothsayer.
