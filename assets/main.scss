@@ -302,7 +302,7 @@ footer {
     }
 
     .footer-col-1 {
-      min-width: 200px;
+      min-width: 300px;
     }
   }
 
@@ -326,17 +326,23 @@ footer {
 
   ul {
     li {
-      margin-bottom: 3px;
+      margin-bottom: 2px;
 
       &.p-name {
         border-bottom: 1px solid #fff;
-        font-weight: 500;
+        font-weight: 600;
         margin-bottom: 4px;
         padding-bottom: 8px;
       }
     }
     &.contact-list {
       margin-bottom: 0.25rem;
+    }
+    &.privacy-notice {
+      margin-top: 1px;
+    }
+    &.social-media-list {
+      margin-top: 16px;
     }
   }
 
