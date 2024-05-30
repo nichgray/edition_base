@@ -2,16 +2,25 @@
 
 ## Site Settings
 
-### Site Information
-
-title: Edition Base
-tagline: The RHAWW Framework in action
-description: A base edition for Recovery Hub for American Women Writers projects.
-
 ### Site Structure
 
 baseurl: "/edition_base" # the subpath of your site
 url: "https://recoveryhub.github.io/" # should not change for Recovery Hub projects
+
+### Site Title
+
+title: Edition Base
+tagline: The RHAWW Framework in action
+
+## Site Description
+
+# The `>` after `description:` means to ignore line-breaks until next key.
+# If you want to omit the line-break after the end of text, use `>-` instead.
+description: > 
+  A base edition for Recovery Hub for American Women Writers projects. 
+  (Write an awesome description for your new site here. You can edit this line
+  in _config.yml. It will appear in your document head meta (for Google search
+  results) and in your feed.xml site description.)
 
 
 ### Banner image
@@ -21,9 +30,13 @@ banner_alt_text: Recovery Hub of American Women Writers with quill icon and page
 
 ### Contact
 
-project_pi: PIs Gloría Kahlo and Murasaki Shikibu  # This can be one or multiple names and will be listed in the footer by default
-email: recoveryhub@siue.edu
-institution: Southern Illinois University Edwardsville
+author:
+  name: PIs Gloría Kahlo and Murasaki Shikibu  # This can be one or multiple names and will be listed in the footer by default
+  email: recoveryhub@siue.edu
+  institution: Southern Illinois University Edwardsville
+
+### Privacy Notice
+
 privacy_notice: https://www.siue.edu/web-privacy-notice/
 
 ### Social Accounts
@@ -135,11 +148,31 @@ defaults:
       navigation: "true"
 
 # Build settings
+
+# If you clone the Minima repo and build locally, use this setting.
 theme: minima
+
+# As of November 2023, GitHub Pages still uses Minima 2.5.1 (https://pages.github.com/versions/). 
+# If you want to use the latest Minima version on GitHub Pages, use the following setting and 
+# add a line comment on "theme: minima" above.
+#remote_theme: jekyll/minima
 
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
   - kramdown
+
+  # Theme-specific settings
+
+# If you want to link only specific pages in your header, use this and add the path to the pages
+# in order as they should show up.
+header_pages:
+  - about.md
+
+    # Minima date format.
+  # The default value is "%b %d, %Y" (e.g. Nov 14, 2023) 
+  # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
+  #date_format: "%b-%d-%Y"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
