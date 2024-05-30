@@ -27,6 +27,7 @@ description: >
 
 banner_image: assets/images/recovery-hub-banner.jpg
 banner_alt_text: Recovery Hub of American Women Writers with quill icon and pages of a book in the background
+banner_size: "half" # Available values: "full" (full-width) or "half". Defaults to half if left blank.
 
 ### Contact
 

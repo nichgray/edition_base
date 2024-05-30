@@ -366,6 +366,43 @@ body#index {
   }
 }
 
+.layout_home {
+  .page-content {
+    padding-top: 0;
+  }
+
+  // Full-width banner image
+  .banner-full {
+    .site-description {
+      margin-top: $spacing-unit;
+    }
+  }
+
+  // Half-width banner image 
+  .banner-half {
+    display: flex;
+    gap: $spacing-unit;
+    padding-top: $spacing-unit;
+    padding-bottom: $spacing-unit;
+
+    @include media-query($on-palm) {
+      flex-direction: column;
+    }
+
+    .banner-image {
+      flex-basis: 50%;
+
+      @include media-query($on-palm) {
+        flex-basis: 100%;
+      }
+    }
+
+    .banner-text {
+      flex-basis: 50%;
+    }
+  }
+}
+
 
 
 // TEI Styles
