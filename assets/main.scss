@@ -447,7 +447,9 @@ body#index {
 
 /*  Notes on future alterations */
 
-[data-tei-e-damage] {} /* formatting adds [?] at end */
+[data-tei-e-damage]::after { /* formatting adds [?] at end */
+  content: '[?]';
+} 
 
 .tei-list-container [data-tei-e="head"] {
   font-size: 1.2em;
