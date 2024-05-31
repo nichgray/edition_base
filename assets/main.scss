@@ -38,8 +38,17 @@ body {
   line-height: 1.5;
 }
 
-.sr-only
-{
+figure,
+img {
+  border-radius: 0; // Undo minima defaults
+  margin-bottom: 0; // Undo minima defaults
+}
+
+p {
+  margin-bottom: 1.5rem;
+}
+
+.sr-only {
   border: 0;
   clip: rect(0, 0, 0, 0);
   height: 1px;
@@ -51,6 +60,7 @@ body {
 }
 
 .wrapper {
+  max-width: 900px;
   padding-left: 25px;
   padding-right: 25px;
 }
@@ -91,6 +101,7 @@ ul {
 // Headings
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-serif;
   font-weight: 500;
 }
 
@@ -111,6 +122,23 @@ h1.post-title {
   border-bottom: 1px solid lightgray;
 }
 
+
+/*
+// Blue underscore
+h1.post-title {
+  margin-bottom: $spacing-unit * 1.25;
+  &:after {
+    content: "";
+    background-color: $recovery-hub-blue;
+    display: block;
+    height: 4px;
+    position: relative;
+    top: $spacing-unit / 2;
+    width: $spacing-unit * 2;
+  }
+}
+*/
+
 /*
  * Site header
  * Overwriting minima _layout.scss
@@ -120,7 +148,7 @@ h1.post-title {
   background: $recovery-hub-indigo;
   border: none;
   font-family: $font-family-sans-serif;
-  min-height: initial;
+  min-height: initial; // Undo minima default
   padding: 20px 0px 20px 5px;
 
   .wrapper {
@@ -137,12 +165,11 @@ h1.post-title {
 
  .site-title {
   color: #fff;
+  font-family: $font-family-serif;
   font-size: 24px;
-  font-weight: 600;
   line-height: 1.1;
   letter-spacing: 0.25px;
   margin-right: $spacing-unit;
-  text-transform: uppercase;
 
     &,
     &:visited {
@@ -152,6 +179,10 @@ h1.post-title {
     @include media-query($on-palm) {
       font-size: 20px;
       margin-right: $spacing-unit * 2;
+    }
+
+    span {
+      display: block;
     }
   }
 
@@ -187,7 +218,8 @@ h1.post-title {
         align-items: center;
         display: flex;
         height: 100%;
-        padding: 0 12px;
+        padding: 0 20px;
+        width: auto; // Undo minima default
       }
 
       &:hover {
@@ -199,7 +231,7 @@ h1.post-title {
         float: none;
         line-height: 0;
         padding-top: 0;
-        text-align: initial;
+        text-align: initial; // Undo minima default
 
         > svg {
           fill: $grey-color-dark;
@@ -403,6 +435,39 @@ body#index {
   }
 }
 
+// _layouts/pagination.html
+
+a.grayed-out {
+  color: #777;
+}
+
+.pagination-links {
+  display: flex;
+  gap: $spacing-unit / 2;
+  justify-content: space-between;
+  margin-bottom: $spacing-unit;
+  width: 100%;
+
+  .book-title {
+    margin-right: 4px;
+  }
+  
+  .separator {
+    margin-right: 4px;
+  }
+}
+
+article.chapter .post-content {
+  border-top: 1px solid $recovery-hub-silver-dark;
+  border-bottom: 1px solid $recovery-hub-silver-dark;
+  padding-top: $spacing-unit;
+
+  h1 {
+    font-size: 32px;
+  }
+}
+
+
 
 
 // TEI Styles
@@ -484,9 +549,9 @@ body#index {
 
 /*  Notes on future alterations */
 
-[data-tei-e-damage]::after { /* formatting adds [?] at end */
+[data-tei-e-damage] {
   content: '[?]';
-} 
+} /* formatting adds [?] at end */
 
 .tei-list-container [data-tei-e="head"] {
   font-size: 1.2em;
