@@ -1,3 +1,15 @@
+---
+layout: paginate
+title: "Chapter VII: The Amazon"
+
+# Metadata
+type: chapter
+chapter_number: 7
+author: Mary Johnston
+book_title: The Wanderers
+chapter_title: The Amazon
+---
+
 # CHAPTER VII
 
 ## THE AMAZON
