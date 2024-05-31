@@ -1,6 +1,18 @@
-# MARY JOHNSTON ON PROGRESS
+---
+layout: page
+title: Mary Johnston on Progress
 
-## Reported verbatim in the *Woman’s Journal* March 11, 1911, page 2.
+# Metadata
+author: Mary Johnston
+date_published: 1911-03-11
+pages: 2
+publication: Woman's Journal
+publication_place:
+---
+
+# MARY JOHNSTON ON PROGRESS[^1]
+
+## Reported verbatim in the *Woman’s Journal* March 11, 1911, page 2.[^2]
  
 At the suffrage dinner recently given in Baltimore, Miss Mary Johnston said:
 
@@ -10,11 +22,11 @@ It is so comfortable to know that we are all of one mind! No opponents, no antag
 
 #### **A Swiss Experience** 
 
-The last time that I was in Lucerne, after I had sat for a while before the Lion, and had gone into the glacier garden, and watched the glacier mill at work, and into the museum, and into the shop where they sell fossils, and purchased Stenoplebia aequalis Kimmeridgien, I was tempted into the Crystal Maze, and then into some kind of an ascending apparatus in which you stood as in a lift and saw yourself reflected a thousand times or two. Mary Johnstons to the right of me, Mary Johnstons to the left of me, Mary Johnstons before me—a vast crowd of Mary Johnstons! I cannot say that it was altogether a pleasant experience, saw a number of things I should like to change in Mary Johnston.  So it is, I imagine, with very many of us when we look upon this—our world.  This our world is very largely—just us. By our presence here tonight we declare—do we not?—that there are certain things in this old world of ours—which is just us—that need changing, and that we are enlisted in the fight to change them.
+The last time that I was in Lucerne, after I had sat for a while before the Lion, and had gone into the glacier garden, and watched the glacier mill at work, and into the museum, and into the shop where they sell fossils, and purchased Stenoplebia aequalis Kimmeridgien,[^3] I was tempted into the Crystal Maze, and then into some kind of an ascending apparatus in which you stood as in a lift and saw yourself reflected a thousand times or two. Mary Johnstons to the right of me, Mary Johnstons to the left of me, Mary Johnstons before me—a vast crowd of Mary Johnstons! I cannot say that it was altogether a pleasant experience, saw a number of things I should like to change in Mary Johnston.  So it is, I imagine, with very many of us when we look upon this—our world.  This our world is very largely—just us. By our presence here tonight we declare—do we not?—that there are certain things in this old world of ours—which is just us—that need changing, and that we are enlisted in the fight to change them.
 
 #### **Change and Progress** 
 
-That is what emerges, clearer and clearer, from this movement of ours. Change--and change in the right direction! It is what I wish; it is what I welcome. The thing in the cocoon is to become the thing with wings. I am today. I will be tomorrow. But I wish to be, tomorrow, stronger and greater than I am today. Beyond the cocoon, the flitting life; beyond the flitting life, Psyche with her wings. 
+That is what emerges, clearer and clearer, from this movement of ours. Change--and change in the right direction! It is what I wish; it is what I welcome. The thing in the cocoon is to become the thing with wings. I am today. I will be tomorrow. But I wish to be, tomorrow, stronger and greater than I am today. Beyond the cocoon, the flitting life; beyond the flitting life, Psyche[^4] with her wings. 
 
 #### **Looking Before and After** 
 
@@ -22,7 +34,7 @@ Mine is the type of mind that looks before and after. Thousands of years ago, a 
 
 #### **The Turn of the Road** 
 
-The evolutionary lane is long, but it is a long lane indeed that has no turning. This one has had many, and always, where it bends, there is a signpost, and before the willy-nilly travellers upon that road spreads a vast new landscape. Far back, far back, coming out of the land called Azoic, the road turned. The sign-post was but a microscopic speck of protoplasm, but the imagination of it strikes so deep and towers so high that we see neither base nor summit. The name of that sign-post was Life, and the landscape seen from that turn of the road was marvellous beyond marvel, terrible beyond terror, beautiful beyond beauty. On went the road, and it turned again at Sensation, and it turned again at Intelligence, and it turned again at Sex. And then it went on through great lands and ages, past the fish in the seas, and the amphibians in the steamy, reedy littoral, and the great reptiles in the fens, and the marsupials on the grassy plains, and the simian folk in the tropical forest. And there came a great sign-post called Intellect, and the road turned there. And presently it encountered another very great sign-post called Humanity. Since then the road has gone straight on. But there is a light in the sky, and a wind blowing fresh. At times we almost see another sign-post. 
+The evolutionary lane is long, but it is a long lane indeed that has no turning. This one has had many, and always, where it bends, there is a signpost, and before the willy-nilly travellers upon that road spreads a vast new landscape. Far back, far back, coming out of the land called Azoic[^5], the road turned. The sign-post was but a microscopic speck of protoplasm, but the imagination of it strikes so deep and towers so high that we see neither base nor summit. The name of that sign-post was Life, and the landscape seen from that turn of the road was marvellous beyond marvel, terrible beyond terror, beautiful beyond beauty. On went the road, and it turned again at Sensation, and it turned again at Intelligence, and it turned again at Sex. And then it went on through great lands and ages, past the fish in the seas, and the amphibians in the steamy, reedy littoral[^6], and the great reptiles in the fens, and the marsupials on the grassy plains, and the simian folk in the tropical forest. And there came a great sign-post called Intellect, and the road turned there. And presently it encountered another very great sign-post called Humanity. Since then the road has gone straight on. But there is a light in the sky, and a wind blowing fresh. At times we almost see another sign-post. 
 
 On the Humanity stretch of the road there have been sign-marks, too—lesser ones than the gigantic marks where the road turns at right angles, but still great figures set for signs, and where they are set the view, too, changes. They are great enough; they are only less than the first. They are set for mighty realms in the stretch called Human.
 
@@ -68,7 +80,7 @@ As we to the Bronze Age, so shall be their minds to ours.
 Secure, swift, they will send their thought where they will, and when they will.  
 They will speak, each to the other, though the earth were between.  
 They will range the past with their thought, and see it as in clear day.  
-They will look on the Permian hills and mark the great ferns where they grew.  
+They will look on the Permian[^7] hills and mark the great ferns where they grew.  
 Leviathan and behemoth will they note in their wanderings.  
 They will move through the colored forest, old haunt of the simian,  
 While the rain patters on the leaves, and the red and green parrots sit disconsolate.  
@@ -99,3 +111,13 @@ Man and woman, equal, holding high the happy child!—
 Demigod and goddess, they also look beyond.  
 They see a light we see not; they guess a vaster star.  
 They hear a music of the spheres. The wind comes fresh to them.  
+
+##Footnotes
+
+[^1]: Johnston was the keynote speaker at a major East Coast suffrage event coordinated by the National American Woman Suffrage Association (NAWSA).  Her speech was then published in the *Woman’s Journal*, the official publication of NAWSA.  In this speech, one hears strains of optimistic faith in evolutionary progress that would be further developed in *The Wanderers* six years later.
+[^2]: Schlesinger Library, Radcliffe Institute, Harvard University, Cambridge, Massachusettes [Link text](https://iiif.lib.harvard.edu/manifests/view/drs:53675989$80i).
+[^3]: Tourist activities in Lucerne
+[^4]: The Greek personification of the human soul is imaged as a female butterfly.
+[^5]: Relating to the Precambrian eon, in which there was no life on the earth.
+[^6]: Related to shoreline or coastal
+[^7]: Prehistoric geological formations
