@@ -1,5 +1,8 @@
 ---
 title: Home
+layout: home
 ---
 
-Home Page
+## Markdown/text from index.md would go here
+
+Etc. etc. etc.

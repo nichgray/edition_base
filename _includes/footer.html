@@ -3,34 +3,66 @@
 
   <div class="wrapper">
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col">
-        <p class="feed-subscribe">
-          <a href="{{ 'feed.xml' | relative_url }}">
-            <svg class="svg-icon orange">
-              <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-            </svg><span>Subscribe</span>
-          </a>
-        </p>
-      {%- if site.project_pi %}
-        <ul class="contact-list">
-          {% if site.project_pi -%}
-            <li class="p-name">{{ site.project_pi | escape }}</li>
-          {% endif -%}
-          {% if site.author.email -%}
-            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
-          {%- endif %}
-        </ul>
-      {%- endif %}
+    <h2 class="footer-heading">{{ site.title }}</h2>
+    {%- if site.sponsors -%}
+      <div class="sponsor-col-wrapper">
+        {%- for sponsor in site.sponsors -%}
+          <div class="sponsor-col sponsor-col-{{ forloop.index }}">
+            {%- if sponsor.logo_path -%}
+            <figure class="sponsor-logo">
+              <a href="{{ sponsor.link }}">
+                <img src="{{ sponsor.logo_path | relative_url }}" alt="{{ sponsor.name }} logo" />
+              </a>
+            </figure>
+            {%- else -%}
+            {{ sponsor.name }}
+            {%- endif -%}
+          </div>
+        {%- endfor -%}
       </div>
-      <div class="footer-col">
-        <p>{{ site.description | escape }}</p>
-      </div>
-    </div>
+    {%- endif -%}
 
-    <div class="social-links">
-      {%- include social.html -%}
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">
+            {%- if site.author.name -%}
+              {{ site.author.name }}
+            {%- else -%}
+              {{ site.title }}
+            {%- endif -%}
+          </li>
+            
+          {%- if site.author.institution -%}
+            <li class="institution">
+              {{ site.author.institution }}
+            </li>
+          {%- endif -%}
+
+          {%- if site.author.email -%}
+            <li class="u-email">
+              <a href="mailto:{{ site.author.email }}">
+                {{ site.author.email }}
+              </a>
+            </li>
+          {%- endif -%}
+
+          {%- if site.privacy_notice -%}
+          <li class="privacy-notice">
+            <a href="{{ site.privacy_notice }}">Web Privacy Notice</a>
+          </li>
+        {%- endif -%}
+
+          {%- include social.html -%}
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <p>{{- site.description -}}</p>
+      </div>
     </div>
 
   </div>
+
 </footer>

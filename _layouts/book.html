@@ -1,0 +1,62 @@
+---
+layout: page
+---
+<div class="metadata-box">
+  <details open><!-- to start expanded: <details open> -->
+    <summary>
+      <h2>Metadata</h2>
+    </summary>
+    <div class="details-content">
+      <ul>
+        {% if page.author %}
+        <li>Author: {{ page.author }}</li>
+        {% endif %}
+        {% if page.publication_year %}
+        <li>Publication Year: {{ page.publication_year }}</li>
+        {% endif %}
+      </ul>
+    </div>
+
+  </details>
+</div>
+
+<!-- {% assign chapters_only = site.pages | where: "type", "chapter" | sort_natural: "chapter_number" | sort_natural: "title" %}-->
+
+<div class="chapter-list">
+  <details open>
+    <summary>
+      <h2>View Individual Chapters</h2>
+    </summary>
+    <div class="details-content">
+      <ul>
+        {% assign this_book = page.book_title %}
+        {% assign this_book_only_chapters = site.pages | where_exp: "page", "page.book_title == this_book" | group_by: "chapter_number" %}
+        {% assign sorted_by_number = this_book_only_chapters | sort: "name" %}
+        {% for chapter_by_number in sorted_by_number %}
+          {% assign sorted_by_number_and_title = chapter_by_number.items | sort: "title" %}
+          {% for chapter in sorted_by_number_and_title %}
+            {% if chapter.url != page.url %}
+            <li>
+              <a href="{{ chapter.url | relative_url }}">
+                {{ chapter.title }}
+              </a>
+            </li>
+            {% endif %}
+            {% endfor %}
+        {% endfor %}
+      </ul>
+    </div>
+  </details>
+</div>
+
+{{ content }}
+
+<div class="whole-book">
+  
+  {% for chapter in chapters_only %}
+  <div class="book-section">
+    <p class="individual-chapter-link"><a href="{{ chapter.url | relative_url }}">View chapter &raquo;</a></p>
+    {{ chapter.content }}
+  </div>
+  {% endfor %}
+</div>

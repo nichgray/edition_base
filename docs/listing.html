@@ -1,7 +1,32 @@
 ---
-title: Listing of all pages
+title: View All
 ---
 
+<div class="categories_listing">
+  {% assign page_categories = site.category_list %}
+  {% assign pages = site.pages | where_exp: 'page', 'page.title' %}
+  {%- comment -%}
+    "where_exp" filter = if page has title
+  {%- endcomment -%}
+  {% for category in site.category_list %}
+    <div class="category_listing">
+      <h2>{{ category | replace: "_", " " | capitalize }}</h2>
+      <ul>
+        {% for page in pages %}
+          {% if page.category == category %}
+            <li>
+              <a class="page-link" href="{{ page.url | relative_url }}">
+                {{ page.title | escape }}
+              </a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
+</div>
+
+<!-- 
 <div class="categories_listing">
   {% for category in site.category_list %}
     <div class="category_listing">
@@ -24,26 +49,31 @@ title: Listing of all pages
       </ul>
     </div>
   {% endfor %}
-</div>
+</div> -->
+
+<h1>All pages</h1>
+<ul id="all">
+  {% for page in pages %}
+    <li><a class="page-link" href="{{ page.url | relative_url }}">{{ page.title }}</a> ({{ page.category }})</li>
+  {% endfor %}
+</ul>
 
 {% comment %}
     below is for troubleshooting, will comment out when done
 {% endcomment %}
 
-<h1>List of all files</h1>
-
-<ul>
+<!-- <ul>
   {%- assign default_paths = site.pages | map: "path" -%}
   {%- assign page_paths = site.header_pages | default: default_paths -%}
   {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
   
-  {%- for path in page_paths -%}
+  {%- for path in default_paths -%}
     {%- assign my_page = site.pages | where: "path", path | first -%}
       {%- if my_page.title -%}
         <li>
-          <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }} - {{my_page.category | inspect}}</a>
+          <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }} - {{ my_page.category | inspect }}</a>
         </li>
       {%- endif -%}
 
   {%- endfor -%}
-</ul>
+</ul> -->

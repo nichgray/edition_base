@@ -2,22 +2,80 @@
 
 ## Site Settings
 
-### Site Information
-
-title: Edition Title
-tagline: An edition of various texts
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut eleifend justo. Quisque gravida est a quam ultrices posuere. Suspendisse potenti. Morbi in metus malesuada, facilisis neque at, ornare lorem. Vestibulum augue eros, consectetur nec rhoncus eu, rhoncus at urna. # Shows up in the footer by default
-
 ### Site Structure
 
 baseurl: "/edition_base" # the subpath of your site
 url: "https://recoveryhub.github.io/" # should not change for Recovery Hub projects
 
+### Site Title
+
+title: Edition Base
+tagline: The RHAWW Framework in action
+
+## Site Description
+
+# The `>` after `description:` means to ignore line-breaks until next key.
+# If you want to omit the line-break after the end of text, use `>-` instead.
+description: > 
+  A base edition for Recovery Hub for American Women Writers projects. 
+  (Write an awesome description for your new site here. You can edit this line
+  in _config.yml. It will appear in your document head meta (for Google search
+  results) and in your feed.xml site description.)
+
+
+### Banner image
+
+banner_image: assets/images/recovery-hub-banner.jpg
+banner_alt_text: Recovery Hub of American Women Writers with quill icon and pages of a book in the background
+banner_size: "half" # Available values: "full" (full-width) or "half". Defaults to half if left blank.
+
 ### Contact
 
-project_pi: Grace Doe and Felicity Smith # This can be one or multiple names and will be listed in the footer by default
-twitter_username: AWWRecoveryHub # twitter name of the Recovery Hub
-github_username:  recoveryhub # github name of the Recovery Hub
+author:
+  name: PIs Gloría Kahlo and Murasaki Shikibu  # This can be one or multiple names and will be listed in the footer by default
+  email: recoveryhub@siue.edu
+  institution: Southern Illinois University Edwardsville
+
+### Privacy Notice
+
+privacy_notice: https://www.siue.edu/web-privacy-notice/
+
+### Social Accounts
+
+facebook_username: AWWrecoveryhub
+twitter_username: AWWRecoveryHub
+instagram_username: awwrecoveryhub
+github_username:  recoveryhub
+
+### Sponsors / Organization Logos
+# Can be overridden in _includes/footer.html instead
+
+sponsors:
+  # copy-paste the following 4 lines for each sponsor
+  - sponsor:
+    name: Southern Illinois University Edwardsville
+    link: https://www.siue.edu/
+    logo_path: assets/images/siue.png
+
+  - sponsor:
+    name: St. Catherine University
+    link: https://www.stkate.edu/
+    logo_path: assets/images/stkate.png
+
+  - sponsor: 
+    name: National Endowment for the Humanities
+    link: https://www.neh.gov/
+    logo_path: assets/images/neh.webp
+
+  - sponsor:
+    name: The IRIS Center at SIUE
+    link: https://iris.siue.edu/
+    logo_path: assets/images/iris.png
+    
+  - sponsor: 
+    name: University of Nebraska–Lincoln
+    link: https://www.unl.edu/
+    logo_path: assets/images/unl.png
 
 ### Site Setup / Defaults
 
@@ -26,11 +84,22 @@ github_username:  recoveryhub # github name of the Recovery Hub
 # The categories are not showing up in the 
 # site.categories object  ¯\_(ツ)_/¯
 
-# I am using categories instead of collections because I can then have files with no headmatter, which may make it easier to incorporate files from other projects
+# I am using categories instead of collections because I can then have files with 
+# no headmatter, which may make it easier to incorporate files from other projects
 
-category_list: ["no_category", "book", "periodical", "essay", "poem", "documentation"]
+category_list: [
+  "none", 
+  "book", 
+  "periodical", 
+  "essay", 
+  "poem", 
+  "documentation"
+  ]
 
-# exclude: ["docs"] # once edition is complete, if you want to exclude the documentation from showing you can exclude the docs folder. You can also add any other directories you would like to exclude (i.e. notes, source files, etc.)
+# exclude: ["docs"] 
+# once edition is complete, if you want to exclude the documentation from showing you 
+# can exclude the docs folder. You can also add any other directories you would like 
+# to exclude (i.e. notes, source files, etc.)
 
 defaults:
   - scope:
@@ -38,22 +107,22 @@ defaults:
       type: pages
     values:
       layout: default
-      category: no_category
+      category: none
 # Item Types
   - scope:
-      path: "item/book"
+      path: "items/book"
       type: pages
     values:
       layout: paginate
       category: book
   - scope:
-      path: "item/periodical"
+      path: "items/periodical"
       type: pages
     values:
       layout: paginate
       category: periodical
   - scope:
-      path: "item/poem"
+      path: "items/poem"
       type: pages
     values:
       layout: default
@@ -91,11 +160,32 @@ defaults:
       navigation: "true"
 
 # Build settings
+
+# If you clone the Minima repo and build locally, use this setting.
 theme: minima
+
+# As of November 2023, GitHub Pages still uses Minima 2.5.1 (https://pages.github.com/versions/). 
+# If you want to use the latest Minima version on GitHub Pages, use the following setting and 
+# add a line comment on "theme: minima" above.
+#remote_theme: jekyll/minima
 
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
   - kramdown
+
+  # Theme-specific settings
+
+# If you want to link only specific pages in your header, use this and add the path to the pages
+# in order as they should show up.
+header_pages:
+  - about.md
+  - "docs/listing.html"
+
+    # Minima date format.
+  # The default value is "%b %d, %Y" (e.g. Nov 14, 2023) 
+  # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
+  #date_format: "%b-%d-%Y"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
