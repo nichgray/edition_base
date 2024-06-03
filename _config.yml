@@ -12,7 +12,7 @@ url: "https://recoveryhub.github.io/" # should not change for Recovery Hub proje
 title: Edition Base
 tagline: The RHAWW Framework in action
 
-## Site Description
+### Site Description
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
@@ -22,12 +22,19 @@ description: >
   in _config.yml. It will appear in your document head meta (for Google search
   results) and in your feed.xml site description.)
 
-
 ### Banner image
 
 banner_image: assets/images/recovery-hub-banner.jpg
 banner_alt_text: Recovery Hub of American Women Writers with quill icon and pages of a book in the background
 banner_size: "half" # Available values: "full" (full-width) or "half". Defaults to half if left blank.
+
+### Navigation
+
+# If you want to link only specific pages in your header, use this and add the path to the pages
+# in order as they should show up.
+header_pages:
+  - about.md
+  - "docs/listing.html"
 
 ### Contact
 
@@ -77,14 +84,12 @@ sponsors:
     link: https://www.unl.edu/
     logo_path: assets/images/unl.png
 
-### Site Setup / Defaults
+# Site Setup / Defaults
 
-# Categories listed here must match the 
-# categories in defaults, below. 
-# The categories are not showing up in the 
-# site.categories object  ¯\_(ツ)_/¯
+## Categories 
 
-# I am using categories instead of collections because I can then have files with 
+# Categories listed here must match the categories in defaults below. 
+# Using categories instead of collections because it accounts for files with 
 # no headmatter, which may make it easier to incorporate files from other projects
 
 category_list: [
@@ -159,7 +164,7 @@ defaults:
     values:
       navigation: "true"
 
-# Build settings
+# Theme and Build settings
 
 # If you clone the Minima repo and build locally, use this setting.
 theme: minima
@@ -174,18 +179,10 @@ plugins:
   - jekyll-seo-tag
   - kramdown
 
-  # Theme-specific settings
-
-# If you want to link only specific pages in your header, use this and add the path to the pages
-# in order as they should show up.
-header_pages:
-  - about.md
-  - "docs/listing.html"
-
-    # Minima date format.
-  # The default value is "%b %d, %Y" (e.g. Nov 14, 2023) 
-  # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
-  #date_format: "%b-%d-%Y"
+# Minima date format.
+# The default value is "%b %d, %Y" (e.g. Nov 14, 2023) 
+# Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
+#date_format: "%b-%d-%Y"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
