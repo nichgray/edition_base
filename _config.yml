@@ -150,22 +150,22 @@ defaults:
       category: documentation
 # Pages to add to navigation
 # you can alternately add pages to navigation via frontmatter
-  - scope:
-      path: "about.md"
-    values:
-      navigation: "true"
-  - scope:
-      path: "index.md"
-    values:
-      navigation: "true"
-  - scope:
-      path: "docs/README.md"
-    values:
-      navigation: "true"
-  - scope:
-      path: "docs/listing.html"
-    values:
-      navigation: "true"
+#  - scope:
+#      path: "about.md"
+#    values:
+#      navigation: "true"
+#  - scope:
+#      path: "index.md"
+#    values:
+#      navigation: "true"
+#  - scope:
+#      path: "docs/README.md"
+#    values:
+#      navigation: "true"
+#  - scope:
+#      path: "docs/listing.html"
+#    values:
+#      navigation: "true"
 
 # Theme and Build settings
 
