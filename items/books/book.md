@@ -13,7 +13,7 @@ publication_place: Boston
 publication_date: 1917
 pages: 426
 
-# Encoding description (info about the editing and encoding of this digital file)
+# Encoding Description (info about the editing and encoding of this digital file)
 annotations_by: 
   - Me
   - You
