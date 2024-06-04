@@ -33,10 +33,10 @@ banner_size: "half" # Available values: "full" (full-width) or "half". Defaults 
 # If you want to link only specific pages in your header, use this and add the path to the pages
 # in order as they should show up.
 header_pages:
-  - "items/book/book.md"
-  - "items/periodical/periodical.md"
-  - "items/poem/poem.md"
-  - about.md
+  - "items/books/book.md"
+  - "items/periodicals/periodical.md"
+  - "items/poems/poem.md"
+  - "about.md"
   - "docs/all-pages.html"
 
 ### Contact
