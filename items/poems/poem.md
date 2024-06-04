@@ -1,5 +1,25 @@
 ---
 title: poem
+
+# Metadata
+author: Mary Johnston
+article_title: The Status of Woman
+publication: The Times Dispatch
+publication_place: Richmond, VA
+publication_date: 1909-12-12
+pages: 4+3
+
+# Encoding description (info about the editing and encoding of this digital file)
+annotations_by: 
+  - Me
+  - You
+  - Them
+
+# Editor of the whole edition/site is set in _config.yml. If edited_by is filled in below, it will override the editor listed _config.yml.
+edited_by: 
+
+## Note about poem layouts
+
 ---
 
 I HEAR AMERICA SINGING.

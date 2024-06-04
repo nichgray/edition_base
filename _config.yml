@@ -89,6 +89,9 @@ sponsors:
 
 # Site Setup / Defaults
 
+# If all pages in the edition have a single editor, list them here.
+editor: Gloría Kahlo and Murasaki Shikibu
+
 ## Categories 
 
 # Categories listed here must match the categories in defaults below. 
@@ -97,10 +100,10 @@ sponsors:
 
 category_list: [
   "none", 
-  "book", 
-  "periodical", 
-  "essay", 
-  "poem", 
+  "books", 
+  "periodicals", 
+  "essays", 
+  "poems", 
   "documentation"
   ]
 
@@ -118,30 +121,30 @@ defaults:
       category: none
 # Item Types
   - scope:
-      path: "items/book"
+      path: "items/books"
       type: pages
     values:
       layout: paginate
-      category: book
+      category: books
   - scope:
-      path: "items/periodical"
+      path: "items/periodicals"
       type: pages
     values:
       layout: paginate
-      category: periodical
+      category: periodicals
   - scope:
-      path: "items/poem"
+      path: "items/poems"
       type: pages
     values:
       layout: default
-      category: poem
+      category: poems
 # Paratext (Introduction, Essays, Documentation)
   - scope:
-      path: "essay"
+      path: "essays"
       type: pages
     values:
       layout: default
-      category: essay
+      category: essays
   - scope:
       path: "docs"
       type: pages
@@ -150,22 +153,22 @@ defaults:
       category: documentation
 # Pages to add to navigation
 # you can alternately add pages to navigation via frontmatter
-#  - scope:
-#      path: "about.md"
-#    values:
-#      navigation: "true"
-#  - scope:
-#      path: "index.md"
-#    values:
-#      navigation: "true"
-#  - scope:
-#      path: "docs/README.md"
-#    values:
-#      navigation: "true"
-#  - scope:
-#      path: "docs/listing.html"
-#    values:
-#      navigation: "true"
+  - scope:
+      path: "about.md"
+    values:
+      navigation: "true"
+  - scope:
+      path: "index.md"
+    values:
+      navigation: "true"
+  - scope:
+      path: "docs/README.md"
+    values:
+      navigation: "true"
+  - scope:
+      path: "docs/listing.html"
+    values:
+      navigation: "true"
 
 # Theme and Build settings
 
