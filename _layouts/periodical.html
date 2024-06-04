@@ -1,0 +1,48 @@
+---
+layout: page
+---
+
+<div class="metadata-box">
+  <details open><!-- to start expanded: <details open> -->
+    <summary>
+      <h2>Metadata</h2>
+    </summary>
+    <div class="details-content">
+      <ul>
+        {% if page.article_title %}
+          <li><strong>Title</strong>: {{ page.article_title }}</li>
+        {% elsif page.title %}
+          <li><strong>Title</strong>: {{ page.title }}</li>
+        {% endif %}
+        {% if page.author %}
+          <li><strong>Author</strong>: {{ page.author }}</li>
+        {% endif %}
+        {% if page.publication %}
+          <li><strong>Publisher</strong>: {{ page.publication }}</li>
+        {% endif %}
+        {% if page.publication_place %}
+          <li><strong>Place of publication</strong>: {{ page.publication_place }}</li>
+        {% endif %}
+        {% if page.publication_date %}
+          <li><strong>Date of publication</strong>: {{ page.publication_date }}</li>
+        {% endif %}
+        {% if page.pages %}
+          <li><strong>Pages</strong>: {{ page.pages }}</li>
+        {% endif %}
+        {% if page.annotations_by %}
+          <li><strong>Annotations by:</strong> {{ page.annotations_by | array_to_sentence_string }}</li>
+        {% endif %}
+        {% if page.edited_by %}
+          <li><strong>Edited by</strong>: {{ page.edited_by }}</li>
+        {% elsif site.editor %}
+          <li><strong>Edited by</strong>: {{ site.editor }}</li>
+        {% endif %}
+      </ul>
+    </div>
+
+  </details>
+</div>
+
+<div class="periodical">
+  {{ content }}
+</div>
