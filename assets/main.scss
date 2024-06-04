@@ -717,3 +717,211 @@ details .details-content {
 .whole-book h1 + h2 {
   margin-top: 1rem;
 }
+
+/* Text formatting styles for poems */
+
+/*
+ ED special layouts
+*/
+
+p.centered {
+  text-align: center;
+}
+
+p.larger {
+  font-size: 1.6rem;
+}
+
+p.large {
+  font-size: 1.4rem
+}
+
+p.small {
+  font-size: 0.8rem;
+}
+
+div.poem,
+.poem,
+div.narrative,
+.narrative {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+
+div.toc {
+  margin-bottom: 4rem;
+}
+
+
+/*
+  Poem styles
+  If you want your lines not to wrap on small screens, add the rule "white-space: nowrap;"; If you
+  want you want to remove the hanging indent, reset the padding-left to 0 and erase text-indent
+*/
+
+.poem ul,
+.poetry ul,
+ul.poetry {
+  list-style: none;
+  list-style-type: none;
+  padding-left: 1rem;
+  text-indent: -1rem;
+}
+
+
+/* This snippet helps us reset the margin for all spans with the indent- class */
+.poem span[class^='indent-'],
+.poetry span[class^='indent-'] {
+  margin: 0;/* reset browsers default margin styles*/
+}
+
+
+/*
+  To set line indentation for poetry wrap the line in a span with a class="indent-x" attribute.
+  The x is represents a rem (root em) value
+*/
+
+.indent-1 {
+  padding-left: 1rem;
+}
+
+.indent-2 {
+  padding-left: 2rem;
+}
+
+.indent-3 {
+  padding-left: 3rem;
+}
+
+.indent-4 {
+  padding-left: 4rem;
+}
+
+.indent-5 {
+  padding-left: 5rem;
+}
+
+.indent-6 {
+  padding-left: 6rem;
+}
+
+.indent-7 {
+  padding-left: 7rem;
+}
+
+.indent-8 {
+  padding-left: 8rem;
+}
+
+.indent-9 {
+  padding-left: 9rem;
+}
+
+.indent-10 {
+  padding-left: 10rem;
+}
+
+.poem .byline,
+.poetry .byline {
+  font-style: italic;
+  font-weight: normal;
+  letter-spacing: 0;
+  margin-top: -.5rem;
+}
+
+/* Footnotes styles */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+.footnotes {
+  line-height: 1.2rem;
+  font-size: 0.9rem;
+  letter-spacing: .01rem;
+}
+
+.footnotes .foot-block {
+  display: inline-block;
+  padding: 0 4rem 0 2rem;
+  margin-bottom: .8rem;
+  font-style: italic;
+}
+
+a.footnote {
+  padding-left: .1rem;
+  font-size: .66rem;
+}
+
+/*Bibliography styles */
+ol.bibliography {
+  list-style-type:none;
+  padding-left: 1rem;
+  text-indent: -1rem;
+}
+
+/* Diplomatic editions */
+ins,
+.add {
+  color:#288828;
+  font-style: italic;
+}
+
+del,
+.delete {
+  text-decoration: line-through;
+  color: #AA3232;
+}
+
+u,
+.underline {
+  text-decoration: underline;
+}
+
+
+/*
+  Line layouts for prose-poetry and theater
+  To use these layouts you need to add the classes to your markdown or HTML lines.
+  (ex. "- {:.centered} hello!")
+*/
+
+li.centered {
+  text-align: center;
+}
+
+li.speaker,
+li.speakerGroup {
+  text-align: center;
+  padding-top: 1.2em;
+}
+
+li.speakerGroup {
+  margin-bottom: -1.6em;
+}
+
+/* To add an attribution, make sure to make a line with the attribution class */
+
+li.attribution {
+  text-align: right;
+  list-style: none;
+  padding: 0rem 1.5rem 0rem 2rem;
+  margin: 0 0 20px 0;
+  color: #454545;
+}
+
+li.prose {
+  list-style-position: inside;
+  margin-left: -1em;
+  text-indent: 0;
+}
+
+li.prose-indent {
+  text-indent: 2rem;
+}
