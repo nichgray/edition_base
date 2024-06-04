@@ -37,7 +37,7 @@ header_pages:
   - "items/periodical/periodical.md"
   - "items/poem/poem.md"
   - about.md
-  - "docs/listing.html"
+  - "docs/all-pages.html"
 
 ### Contact
 
@@ -166,7 +166,7 @@ defaults:
     values:
       navigation: "true"
   - scope:
-      path: "docs/listing.html"
+      path: "docs/all-pages.html"
     values:
       navigation: "true"
 
