@@ -1,6 +1,6 @@
 ---
 layout: page
-title: The Status of Woman
+title: Periodical
 
 # Metadata
 author: Mary Johnston

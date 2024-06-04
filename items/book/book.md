@@ -1,11 +1,11 @@
 ---
 layout: book
-title: The Wanderers (Sample book)
-permalink: the-wanderers
+title: Book
+permalink: book
 
 # Metadata
 author: Mary Johnston
-book_title: The Wanderers
+book_title: The Wanderers 
 
 # To italicize the title of this page, use italicize_title: true
 italicize_title: true
