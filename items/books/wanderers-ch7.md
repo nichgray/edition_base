@@ -4,9 +4,9 @@ title: "Chapter VII: The Amazon"
 
 # Metadata
 type: chapter
-chapter_number: 7
 author: Mary Johnston
 book_title: The Wanderers
+chapter_number: 7
 chapter_title: The Amazon
 ---
 

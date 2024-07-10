@@ -4,9 +4,9 @@ title: "Chapter I: The Forest"
 
 # Metadata
 type: chapter
-chapter_number: 1
 author: Mary Johnston
 book_title: The Wanderers
+chapter_number: 1
 chapter_title: The Forest
 ---
 

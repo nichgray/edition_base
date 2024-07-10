@@ -4,9 +4,9 @@ title: "Chapter II: The Cave"
 
 # Metadata
 type: chapter
-chapter_number: 2
 author: Mary Johnston
 book_title: The Wanderers
+chapter_number: 2
 chapter_title: The Cave
 ---
 

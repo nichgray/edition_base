@@ -4,9 +4,9 @@ title: "Chapter IV: Property"
 
 # Metadata
 type: chapter
-chapter_number: 4
 author: Mary Johnston
 book_title: The Wanderers
+chapter_number: 4
 chapter_title: Property
 ---
 
