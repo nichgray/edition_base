@@ -3,7 +3,9 @@ layout: periodical
 title: Periodical
 permalink: periodical
 
-# Source Description
+# Metadata
+
+## Source Description
 author: Mary Johnston
 article_title: The Status of Woman
 publication: The Times Dispatch
@@ -11,14 +13,21 @@ publication_place: Richmond, VA
 publication_date: 1909-12-12
 pages: 4+3
 
-# Encoding Description (info about the editing and encoding of this digital file)
-annotations_by: 
-  - Me
-  - You
-  - Them
+## Encoding Description (info about the editing and encoding of this digital file)
 
-# Editor of the whole edition/site is set in _config.yml. If edited_by is filled in below, it will override the editor listed _config.yml.
+### Annotators
+annotations_by: 
+  - Person 1
+  - Person 2
+  - Person 3
+  # etc.
+
+### Editors (Note: the editor of the whole edition/site is set in _config.yml. If edited_by is filled in below, it will override the editor listed in _config.yml.
 edited_by: 
+  - Person 1
+  - Person 2
+  # etc.
+
 ---
 
 # The Status of Woman[^ref1]
