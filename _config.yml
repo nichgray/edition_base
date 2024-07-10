@@ -12,14 +12,19 @@ url: "https://recoveryhub.github.io/" # should not change for Recovery Hub proje
 title: Edition Base
 tagline: The RHAWW Framework in action
 
+# If the site title needs to be formatted, e.g. with italics,
+# use HTML in _includes/site_title_html.html to format the title text
+# and then remove the # at the beginning of the following line:
+# html_site_title: true
+
 ### Site Description
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: > 
-  A base edition for Recovery Hub for American Women Writers projects. 
-  (Write an awesome description for your new site here. You can edit this line
-  in _config.yml. It will appear in your document head meta (for Google search
+  A base edition for Recovery Hub for American Women Writers projects. (Write 
+  a simple description for your new site here. You can edit this line in 
+  _config.yml. It will appear in your document head meta (for Google search 
   results) and in your feed.xml site description.)
 
 ### Banner image
@@ -42,7 +47,8 @@ header_pages:
 ### Contact
 
 author:
-  name: PIs Gloría Kahlo and Murasaki Shikibu  # This can be one or multiple names and will be listed in the footer by default
+  # "name" can contain one or multiple names and will be listed in the footer by default
+  name: PIs Gloría Kahlo and Murasaki Shikibu
   email: recoveryhub@siue.edu
   institution: Southern Illinois University Edwardsville
 
@@ -58,7 +64,9 @@ instagram_username: awwrecoveryhub
 github_username:  recoveryhub
 
 ### Sponsors / Organization Logos
-# Can be overridden in _includes/footer.html instead
+
+# You can add/edit/remove sponsors below, or override the 
+# the HTML in the footer template _includes/footer.html 
 
 sponsors:
   # copy-paste the following 4 lines for each sponsor
@@ -89,17 +97,20 @@ sponsors:
 
 # Site Setup / Defaults
 
-# If all pages in the edition have a single editor, list them here.
+# If all pages in this edition have the same editor(s), you can list them here.
+# Otherwise, you can include the editor(s) in the metadata for each file.
 editor: Gloría Kahlo and Murasaki Shikibu
 
 ## Categories 
 
 # Categories listed here must match the categories in defaults below. 
-# Using categories instead of collections because it accounts for files with 
-# no headmatter, which may make it easier to incorporate files from other projects
+# If you add a category, be sure to add it in both places.
+# We use categories instead of Jekyll's built-in collections functionality 
+# because the latter does not account for files with no headmatter.
 
 category_list: [
   "none", 
+  "drafts", 
   "books", 
   "periodicals", 
   "essays", 
@@ -107,10 +118,15 @@ category_list: [
   "documentation"
   ]
 
-# exclude: ["docs"] 
-# once edition is complete, if you want to exclude the documentation from showing you 
-# can exclude the docs folder. You can also add any other directories you would like 
-# to exclude (i.e. notes, source files, etc.)
+## Exclude specific categories from showing up
+
+# Once the edition is complete, if you want to exclude a category from showing up 
+# on the finished site, remove the # at the beginning of the line below and 
+# add the category's folder to the list (separated with commas and spaces). 
+# To hide documentation on the finished site, for example, the "docs" folder 
+# is listed, as is the folder where drafts are stored.
+
+# exclude: ["docs", "source/drafts"] 
 
 defaults:
   - scope:
@@ -119,6 +135,14 @@ defaults:
     values:
       layout: default
       category: none
+  - scope:
+      path: "source/drafts"
+      type: pages
+    values:
+      layout: default
+      category: drafts
+      # This should work according to this page but does not https://talk.jekyllrb.com/t/creating-custom-permalinks-for-each-post-category/434/4
+      # permalink: draft/:title
 # Item Types
   - scope:
       path: "items/books"
@@ -151,6 +175,10 @@ defaults:
     values:
       layout: default
       category: documentation
+
+# To use Jekyll collections, set them up here:
+collections: 
+  - items
 
 # Theme and Build settings
 
