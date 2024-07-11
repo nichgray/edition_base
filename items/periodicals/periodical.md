@@ -89,7 +89,8 @@ When the ruling passion so holds in death and madness it may be trusted to rule 
 ##Footnotes
 
 [^ref1]: Soon after her commitment to the cause of suffrage, Johnston submitted what we would characterize as an op-ed to the the Richmond Times-Dispatch, Sunday edition. This essay argues against the claim that if granted equal suffrage, women would abandon their roles as wives and mothers.  She does so be providing an evolutionary and global overview of womanhood that previews the plot and structure of *The Wanderers*, published seven years later.  
-[^ref2]: Chronicling America: Historic American Newspapers. Lib. of Congress.  [Link text](https://chroniclingamerica.loc.gov/lccn/sn85038615/1909-12-12/ed-1/seq-28/)[Link text](https://chroniclingamerica.loc.gov/lccn/sn85038615/1909-12-12/ed-1/seq-27/). 
+[^ref2]: Chronicling America: Historic American Newspapers. Lib. of Congress.  [https://chroniclingamerica.loc.gov/lccn/sn85038615/1909-12-12/ed-1/seq-28/](https://chroniclingamerica.loc.gov/lccn/sn85038615/1909-12-12/ed-1/seq-28/)
+ and [https://chroniclingamerica.loc.gov/lccn/sn85038615/1909-12-12/ed-1/seq-27/](https://chroniclingamerica.loc.gov/lccn/sn85038615/1909-12-12/ed-1/seq-27/). 
 [^ref3]: Prehistoric era treated in chapter 1 of *The Wanderers*.
 [^ref4]: Prehistoric era treated in chapter 2 of *The Wanderers*.
 [^ref5]: Prehistoric eras treated in chapters 3-5 of *The Wanderers*.
