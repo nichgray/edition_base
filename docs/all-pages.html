@@ -2,6 +2,10 @@
 title: View All
 ---
 
+<h1 class="post-title">List of All Pages</h1>
+
+<h2>Pages by Category</h2>
+
 <div class="categories_listing">
   {% assign page_categories = site.category_list %}
   {% assign pages = site.pages | where_exp: 'page', 'page.title' %}
@@ -9,7 +13,7 @@ title: View All
     "where_exp" filter = if page has title
   {%- endcomment -%}
   {% for category in site.category_list %}
-    <div class="category_listing">
+    <div class="category-listing">
       <h2>{{ category | replace: "_", " " | capitalize }}</h2>
       <ul>
         {% for page in pages %}
@@ -29,7 +33,7 @@ title: View All
 <!-- 
 <div class="categories_listing">
   {% for category in site.category_list %}
-    <div class="category_listing">
+    <div class="category-listing">
     <h2>{{ category | replace: "_", " " | capitalize }}</h2>
       <ul>
         {%- assign default_paths = site.pages | map: "path" -%}
