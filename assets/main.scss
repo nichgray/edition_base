@@ -637,11 +637,9 @@ table, tr, td {
 }
 
 .category-listing {
- border: 1px solid #aaa;
- margin: 10px 10px 0 0;
- padding: 10px;
- flex-grow: 1;
-
+  flex-grow: 1;
+  min-width: 20%;
+  padding-bottom: 1rem;
 }
 
 pre {

@@ -14,7 +14,7 @@ title: View All
   {%- endcomment -%}
   {% for category in site.category_list %}
     <div class="category-listing">
-      <h2>{{ category | replace: "_", " " | capitalize }}</h2>
+      <h3>{{ category | replace: "_", " " | capitalize }}</h3>
       <ul>
         {% for page in pages %}
           {% if page.category == category %}
@@ -55,7 +55,8 @@ title: View All
   {% endfor %}
 </div> -->
 
-<h1>All pages</h1>
+<h2>All pages</h2>
+<p><em>Category in parenthesis</em></p>
 <ul id="all">
   {% for page in pages %}
     <li><a class="page-link" href="{{ page.url | relative_url }}">{{ page.title }}</a> ({{ page.category }})</li>
