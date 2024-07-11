@@ -6,7 +6,7 @@ title: View All
 
 <h2>Pages by Category</h2>
 
-<div class="categories_listing">
+<div class="categories-listing">
   {% assign page_categories = site.category_list %}
   {% assign pages = site.pages | where_exp: 'page', 'page.title' %}
   {%- comment -%}
@@ -31,7 +31,7 @@ title: View All
 </div>
 
 <!-- 
-<div class="categories_listing">
+<div class="categories-listing">
   {% for category in site.category_list %}
     <div class="category-listing">
     <h2>{{ category | replace: "_", " " | capitalize }}</h2>
