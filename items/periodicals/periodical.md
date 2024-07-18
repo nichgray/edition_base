@@ -8,7 +8,7 @@ permalink: periodical
 ## Source Description
 author: Mary Johnston
 article_title: The Status of Woman
-publication: The Times Dispatch
+publication_title: The Times Dispatch
 publication_place: Richmond, VA
 publication_date: 1909-12-12
 pages: 4+3
@@ -17,24 +17,23 @@ pages: 4+3
 
 ### Annotators
 annotations_by: 
-  - Person 1
-  - Person 2
-  - Person 3
+  - Person 1 # To add more people, copy and paste this line
   # etc.
 
-### Editors (Note: the editor of the whole edition/site is set in _config.yml. If edited_by is filled in below, it will override the editor listed in _config.yml.
-edited_by: 
-  - Person 1
-  - Person 2
+### Editors
+# Note: the editor of the whole edition/site is set in _config.yml. 
+# If file_edited_by is filled in below, it will override the editor listed in _config.yml.
+file_edited_by: 
+  - Person 1 # To add more editors, copy and paste this line
   # etc.
 
 ---
 
 # The Status of Woman[^ref1]
 
-## By Mary Johnston
+By Mary Johnston
 
-### *The Times Dispatch: Richmond, VA.* December 12, 1909 – Section C, pages 4+3[^ref2]
+**_The Times Dispatch: Richmond, VA._ December 12, 1909 – Section C, pages 4+3[^ref2]**
 
 Apparently there is at the moment, in the minds of some worthy people, a fear that when the door of a civilization, which we proudly proclaim as dynamic, shall open to equal suffrage, woman's love for her home and family will at once fly out of the window. May I avail myself of the courtesy of your columns, and speak upon this subject? 
 

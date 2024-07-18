@@ -3,7 +3,11 @@ layout: page
 ---
 
 <div class="metadata-box">
-  <details open><!-- to start expanded: <details open> -->
+  {% comment %}
+    To load page with metadata box expanded, use <details open> 
+    To load page with metadata box closed, use <details>
+  {% endcomment %}
+  <details open>
     <summary>
       <h2>Metadata</h2>
     </summary>
@@ -17,14 +21,20 @@ layout: page
         {% if page.author %}
           <li><strong>Author</strong>: {{ page.author }}</li>
         {% endif %}
-        {% if page.publication %}
-          <li><strong>Publisher</strong>: {{ page.publication }}</li>
+        {% if page.publication_title %}
+          <li><strong>Publisher</strong>: {{ page.publication_title }}</li>
         {% endif %}
         {% if page.publication_place %}
           <li><strong>Place of publication</strong>: {{ page.publication_place }}</li>
         {% endif %}
         {% if page.publication_date %}
-          <li><strong>Date of publication</strong>: {{ page.publication_date }}</li>
+          <li><strong>Date of publication</strong>: 
+            {% if page.publication_date.size %} {% comment %} Tests if date is in format other than YYYY-MM-DD {% endcomment %}
+              {{ page.publication_date }}
+            {% else %}
+              {{ page.publication_date | date: "%B %e, %Y" }}
+            {% endif %}
+          </li>
         {% endif %}
         {% if page.pages %}
           <li><strong>Pages</strong>: {{ page.pages }}</li>
@@ -32,8 +42,8 @@ layout: page
         {% if page.annotations_by %}
           <li><strong>Annotations by:</strong> {{ page.annotations_by | array_to_sentence_string }}</li>
         {% endif %}
-        {% if page.edited_by %}
-          <li><strong>Edited by</strong>: {{ page.edited_by }}</li>
+        {% if page.file_edited_by %}
+          <li><strong>Edited by</strong>: {{ page.file_edited_by | array_to_sentence_string }}</li>
         {% elsif site.editor %}
           <li><strong>Edited by</strong>: {{ site.editor }}</li>
         {% endif %}
