@@ -6,21 +6,24 @@ permalink: poem
 # Source description
 author: Sara Teasdale
 poem_title: The Crystal Gazer
-publication: unknown
-publisher: unknown
-publication_place: unknown 
-publication_date: unknown
+publication_title: 
+publisher: 
+publication_place:  
+publication_date: unknown 
 
-# Encoding Description (info about the editing and encoding of this digital file)
+### Annotators
 annotations_by: 
-  - Me
-  - You
-  - Them
+  - Person 1 # To add more people, copy and paste this line
+  # etc.
 
-# Editor of the whole edition/site is set in _config.yml. If edited_by is filled in below, it will override the editor listed _config.yml.
-edited_by: 
+### Editors
+# Note: the editor of the whole edition/site is set in _config.yml. 
+# If file_edited_by is filled in below, it will override the editor listed in _config.yml.
+file_edited_by: 
+  - Person 1 # To add more editors, copy and paste this line
+  # etc.
 
-## Note about poem layouts
+## See documentation on poem layouts and indentation
 
 ---
 
