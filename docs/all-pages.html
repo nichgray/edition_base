@@ -9,8 +9,9 @@ title: View All
 <div class="categories-listing">
   {% assign page_categories = site.category_list %}
   {% assign pages = site.pages | where_exp: 'page', 'page.title' %}
+  {% assign texts = site.texts | where_exp: 'text', 'text.title' %}
   {%- comment -%}
-    "where_exp" filter = if page has title
+    "where_exp" filter = if page or text has title
   {%- endcomment -%}
   {% for category in site.category_list %}
     <div class="category-listing">
@@ -21,6 +22,15 @@ title: View All
             <li>
               <a class="page-link" href="{{ page.url | relative_url }}">
                 {{ page.title | escape }}
+              </a>
+            </li>
+          {% endif %}
+        {% endfor %}
+        {% for text in texts %}
+          {% if text.category == category %}
+            <li>
+              <a class="page-link" href="{{ text.url | relative_url }}">
+                {{ text.title | escape }}
               </a>
             </li>
           {% endif %}
@@ -82,3 +92,13 @@ title: View All
 
   {%- endfor -%}
 </ul> -->
+
+<h2>All TEI files</h2>
+
+<ul>
+  {% for text in site.texts %}
+    <li>
+      <a href="{{ text.url }}">{{ text.title }}</a> ({{text.category}})
+    </li>
+  {% endfor %}
+</ul>

@@ -22,7 +22,9 @@ tagline: The RHAWW Framework in action
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: > 
-  A base edition for Recovery Hub for American Women Writers projects. (Write 
+  A base edition for Recovery Hub for American Women Writers projects. TEI file display uses 
+  CETEIcean, which is distributed under a BSD 2-Clause "Simplified" License. Text and files created as 
+  part of this edition are licensed under a [your license here]. (Write 
   a simple description for your new site here. You can edit this line in 
   _config.yml. It will appear in your document head meta (for Google search 
   results) and in your feed.xml site description.)
@@ -115,7 +117,8 @@ category_list: [
   "periodicals", 
   "essays", 
   "poems", 
-  "documentation"
+  "documentation",
+  "correspondence"
   ]
 
 ## Exclude specific categories from showing up
@@ -162,6 +165,19 @@ defaults:
     values:
       layout: default
       category: poems
+# Text (TEI) Types
+  - scope:
+      path: "_texts/poems"
+      type: texts
+    values:
+      layout: tei
+      category: poems
+  - scope:
+      path: "_texts/correspondence"
+      type: texts
+    values:
+      layout: tei
+      category: correspondence
 # Paratext (Introduction, Essays, Documentation)
   - scope:
       path: "essays"
@@ -178,7 +194,8 @@ defaults:
 
 # To use Jekyll collections, set them up here:
 collections: 
-  - items
+  texts:
+    output: true
 
 # Theme and Build settings
 
