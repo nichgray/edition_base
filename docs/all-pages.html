@@ -98,7 +98,7 @@ title: View All
 <ul>
   {% for text in site.texts %}
     <li>
-      <a href="{{ text.url }}">{{ text.title }}</a> ({{text.category}})
+      <a href="{{ text.url | relative_url }}">{{ text.title }}</a> ({{text.category}})
     </li>
   {% endfor %}
 </ul>
