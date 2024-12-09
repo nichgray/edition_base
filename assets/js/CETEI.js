@@ -91,6 +91,8 @@ var CETEI = (function () {
       "pb": [
         // display images for page breaks when facs is available
         ["[facs]", function(elt){
+          let parSpan = document.createElement("span");
+          parSpan.setAttribute("class","pageimage");
           let imgName = elt.getAttribute("facs");
           let imgLink = document.createElement("a");
           imgLink.setAttribute("href","../../assets/images/tei/" + imgName);
@@ -99,8 +101,9 @@ var CETEI = (function () {
           img.setAttribute("src","../../assets/images/tei/" + imgName);
           img.setAttribute("width","100");
           img.setAttribute("alt","page image");
+          parSpan.appendChild(imgLink);
           imgLink.appendChild(img);
-          return imgLink;
+          return parSpan;
         }]
       ],
       "title": [
