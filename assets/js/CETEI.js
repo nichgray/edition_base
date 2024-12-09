@@ -95,10 +95,10 @@ var CETEI = (function () {
           parSpan.setAttribute("class","pageimage");
           let imgName = elt.getAttribute("facs");
           let imgLink = document.createElement("a");
-          imgLink.setAttribute("href","../../assets/images/tei/" + imgName);
+          imgLink.setAttribute("href","../assets/images/tei/" + imgName);
           imgLink.setAttribute("target","_blank")
           let img = document.createElement("img");
-          img.setAttribute("src","../../assets/images/tei/" + imgName);
+          img.setAttribute("src","../assets/images/tei/" + imgName);
           img.setAttribute("width","100");
           img.setAttribute("alt","page image");
           parSpan.appendChild(imgLink);
