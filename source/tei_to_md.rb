@@ -1,8 +1,5 @@
 require 'nokogiri'
 
-# initialize categories variable
-allCategories = []
-
 # get all file names in tei directory
 files = Dir.children("tei")
 
@@ -14,10 +11,9 @@ teiFiles.each do |i|
 	doc = Nokogiri::XML(File.read("tei/#{i}"))
 
 	# assign variables
-	# TODO: handle cases with multiple values, like author and category
 	title = doc.xpath("//xmlns:titleStmt/xmlns:title[@type='main']/text()")
 	xml_id = doc.xpath("//xmlns:TEI/@xml:id")
-	author = doc.xpath("//xmlns:teiHeader//xmlns:titleStmt//xmlns:author[1]/text()")
+	author_list = doc.xpath("//xmlns:teiHeader//xmlns:titleStmt//xmlns:author/text()")
 	publication_a_title = doc.xpath("//xmlns:sourceDesc//xmlns:bibl[1]//xmlns:title[@level='a']/text()")
 	publication_j_title = doc.xpath("//xmlns:sourceDesc//xmlns:bibl[1]//xmlns:title[@level='j']/text()")
 	publication_m_title = doc.xpath("//xmlns:sourceDesc//xmlns:bibl[1]//xmlns:title[@level='m']/text()")
@@ -28,13 +24,13 @@ teiFiles.each do |i|
 	# check to see if title j or m should be used
 	publication_j_title ? pubTitle = publication_j_title.to_s : pubTitle = publication_m_title.to_s
 
+	# compile authors into a list
+	author = author_list.map(&:to_s).join("; ")
+
 	# go ahead and turn doc id and category into strings, create filename
 	doc_id = xml_id.to_s
 	category = category_name.to_s
 	filename = doc_id + '.xml'
-
-	# add category to categories array
-	allCategories << category.to_s
 
 	# read in data as hash
 	data_hash = {
@@ -47,18 +43,11 @@ teiFiles.each do |i|
 		"category" => category.to_s
 	}
 
-	# check for category among extant directories
-	if !Dir.exist?("../_texts/#{category}")
-		puts "Creating a new #{category} folder."
-		# make a new directory if the category doesn't exist
-		Dir.mkdir("../_texts/#{category}")
-	end
-
 	# print values that exist to new md file
 	# outside block handles errors
 	begin
 		# create and open the file and stuff it with the hash
-		File.open("../_texts/#{category}/#{doc_id}.md","w") do |f|
+		File.open("../_texts/#{doc_id}.md","w") do |f|
 			# make sure to include jekyll head matter markers
 			f.puts "---"
 			# write that bad boy
@@ -80,7 +69,5 @@ teiFiles.each do |i|
 	end
 end
 
-# Alert the user they may need to update categories in config
+# Success message
 puts "Congratulations: your transformation was successful!"
-puts "Before viewing your files, please confirm the following categories appear in _config.yml: "
-puts allCategories.uniq
