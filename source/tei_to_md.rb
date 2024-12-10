@@ -20,6 +20,7 @@ teiFiles.each do |i|
 	publication_date = doc.xpath("//xmlns:sourceDesc//xmlns:date/text()")
 	pages = doc.xpath("//xmlns:sourceDesc//xmlns:biblScope[@unit='pages']/text()")
 	category_name = doc.xpath("//xmlns:encodingDesc//xmlns:catDesc[1]/text()")
+	facs = doc.xpath("//xmlns:pb[@facs]")
 
 	# check to see if title j or m should be used
 	publication_j_title ? pubTitle = publication_j_title.to_s : pubTitle = publication_m_title.to_s
@@ -52,6 +53,8 @@ teiFiles.each do |i|
 			f.puts "---"
 			# write that bad boy
 			data_hash.each { |k, v| f.puts("#{k}: #{v}") unless v.empty? }
+			# add gallery var if facs are present
+			f.puts ("gallery: true") unless facs.empty?
 			# close the head matter
 			f.puts "---"
 		end
