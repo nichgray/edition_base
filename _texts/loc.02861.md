@@ -4,4 +4,5 @@ document: loc.02861.xml
 author: Anne Gilchrist
 publication_date: April 12, 1872
 category: correspondence
+gallery: true
 ---
